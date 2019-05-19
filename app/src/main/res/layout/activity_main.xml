@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="322dp"
+        android:layout_height="322dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginTop="50dp"
+       android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="208dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:text="About us"
+        android:background="@color/blue"
+        tools:layout_editor_absoluteX="5dp"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteY="687dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="208dp"
+        android:layout_height="40dp"
+        android:text="Our Service"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+       android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:background="@color/blue" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+      android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+       android:lineSpacingExtra="6dp"
+        android:textColor="@color/black"
+         android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Since our opening, we have become masters of our craft. Our commitment to Quality and Exceptional Services and incomparable customer care keep our community coming back again and again."
+       android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:layout_below="@+id/imageView"/>
+
+</RelativeLayout>
